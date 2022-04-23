@@ -1,0 +1,14 @@
+doctype---->refers to thetype of file giving to server
+inside the head we call metatags which desicribes some tags in that 
+inside body we write all the things
+want to add css js files we use link tags
+<!--this is the comment-->
+ctrl+/=you can make a line comment
+
+add inside head tags
+
+    <!-- This is how we add css file -->
+        <link rel="stylesheet" href="hello.css">
+
+        <!-- This is how we add js file -->
+        <script src="hello.js"></script>

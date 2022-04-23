@@ -1,0 +1,683 @@
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< HTML BASICS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>..
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< HTML BASICS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>..
+
+
+doctype---->refers to the type of file which we are giving to server
+======================================================================
+inside the head we call metatags which desicribes some tags in that 
+inside body we write all the things
+want to add css and js files we use link tags
+____________________________________________
+<!--this is the comment-->                  |
+ctrl+/=you can make a line comment          |
+____________________________________________|
+
+Add inside head tags
+this things we do in head part........................................................
+
+
+    <!-- This is how we add css file -->
+                    
+                    
+                    <link rel="stylesheet" href="hello.css"> 
+
+     <!-- This is how we add js file -->
+                   
+                   
+                     <script src="hello.js"></script>
+
+
+whenever we use tags there is always a opening and closing tags
+
+
+
+
+
+body part......................................................................
+                       <h1>------>heading tag which size is big
+
+                       <h2>------>heading tag which size is small
+
+                       <h3>------>heading tag which size is small
+
+                       <h4>------>heading tag which size is small
+
+                       <h5>------>heading tag which size is small
+
+                       <h6>------>heading tag which size is small
+
+
+to paragraph..........
+                                  <p> tag we use
+
+EMMET POWER-->>Emmet abbrivation...........under these we have 
+
+
+                            .............<p>,<h1>,<h2>............
+
+
+
+--when you type lorem inside the paragraph tag if you type lorem then 4 it will add 4 words like
+
+
+                                        <p>lorem 4</p>
+                                        
+                                        lorem hello jane heading
+
+
+
+                if your lorem sentence makes a horizontal tag means the word exceed to 
+                next screen then use toggle word wrap in settings command patale
+                depends upon you how many paragraph you want to add in Lorem.. 
+                if you type Lorem404 then it print 404 words
+
+ 
+ 
+ 
+                if you type p*4 you get 4 paragrapht tags same for other tags 
+
+
+                        h1*4,h2*4 you get 4 h1 and h2
+ ................................................................................................
+
+
+ 
+ 
+ 
+ in html you have tags and attributes thats all.......................
+
+
+
+ there are two tags <strong> and <em> tags we can decide in between paragraphs how are tags
+ should be seen-------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+ <em>quae nihil </em> fugit <strong>adipisci officiis doloremque reiciendis</strong> 
+ natus laudantium quidem dicta cumque?<p>
+
+ 
+        we can decide what styles should come inside strong and em tag through css 
+
+
+
+                                <br> to break line
+
+
+
+                <hr> make a line(________________________________________________)
+
+
+
+        Instead of bold and itallic tag <b>,<i> we can use strong and em tags 
+        thats are bydefault 
+        bold and itallic if ypu want to use you can use through the css...............
+
+
+
+
+                        ________________________________________
+                        ctrl+enter---->to jump to new line..   |
+                        _______________________________________|
+
+
+                        we call the doctype the full code boiler plate..............
+
+
+_________________________________________________________________________________________________
+
+
+
+links and images.......................
+
+
+
+                                        <a> tag for link you can create.........
+
+
+                        href----->you can add link by adding links to href tag you can 
+                                visit the website you wnt to
+
+
+tags and attributes:----
+
+
+
+                                          <a> tag 
+                                          href is the attribute of <a> tag...........
+
+          like other.........
+          <meta> tag 
+          name is the attribute of <meta>
+
+
+new thing:---------
+
+_____________________________________________________________________________________________
+alt + take your cursor to the places you want type the things at a same time.........       |
+____________________________________________________________________________________________|
+
+
+if you want to open the link in a new tab not the same tab----------->>>
+
+                       ___________________________________________
+                       target="_blank"---------> add this to link |
+                       ___________________________________________|                       
+
+
+
+
+        <a href="https://www.google.co.in/ " target="_blank">Go to google</a>
+        <a href="https://www.facebook.com/" target="_blank">Go to fb</a>
+        <a href="https://twitter.com/login?lang=en" target="_blank">Go to twitter</a>
+
+
+   
+
+
+Here we worked on external links................
+
+
+
+Now for internal links....................
+
+
+
+
+                ______________________________________________________________
+                just put a (/)before the name of file which you want to open  |
+                ______________________________________________________________|         
+
+
+                <a href="/hello.html" target="_blank">Go to html file</a>
+
+
+
+
+attribute gives a property to the tags the attribute changes the work flow of tags
+
+
+
+image insert..................................>>>
+
+
+
+                                two types local or internet......>>>>>.
+
+local......
+_______________________________________
+
+                        
+                        <img src="harry.jpg" alt="error"
+
+
+
+                two things src and alt both are attributes              
+                src the place where your image is and alt if 
+                some reason the image did not show up what text you want to give
+
+
+................................................................................................
+
+
+
+                same for internet copy the image address and paste in src attribute
+
+
+
+                IF YOU WANT IMAGE THERE IS COOL WEBSITE-------->UNPLASH SOURCE.............
+
+do you want random picture after each refesh
+
+https://source.unsplash.com/random
+
+water....................
+
+https://source.unsplash.com/1600x900/?nature,water
+
+ 
+                        *********************Lists******************
+
+                                1.ordered list (1.harry,2.rufus)
+                                2.unordered list(.harry,.rufus)
+
+
+
+<ol type="i,a,I,A,1">
+all are types..............................
+in ordered list check book
+
+
+                                ___________________________________
+                                <ul type="square,circle,disc">     |
+                                all are types of unordered list    |
+                                ___________________________________|
+     
+     
+                        nested list also there>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+                        <ul type="circle">
+                                      <li>hello </li>
+                                      <li>hello </li>
+                                      <li>hello </li>
+                                      <ul type="square">
+                                              <li>jacob</li>
+                                              <li>jacob</li>
+                                              <li>jacob</li>
+                                              <li>jacob</li>
+                                      </ul>
+                                      <li>hello </li>
+                                      <li>hello </li>
+                              </ul>
+
+
+
+   ****************You can use---format document---to get back codes in poisition*****************
+
+
+################################  tables   ############################################
+
+
+
+
+                        <table>
+                        <thead>
+                        <tr>
+                        <th>.........</th>
+                        </tr>                   
+                        ...
+                        ...
+                        </thead>
+
+                        <tbody>
+                        <tr>
+                        <td>.........</td>
+                        ...
+                        ...
+                        </tbody>
+
+
+
+                        ***************Forms*****************
+
+
+                        form action the things written in form that send to backend
+
+                        input tag -------
+                        take input from user
+                        1.checkbox
+                        2.radio
+                        3.datetime
+
+
+
+                     Name:<input type="text">
+          
+              write name word like this in front you can write any word
+
+ To bring the name and roll in down down we can use <br> tag but it is not good for work 
+ so we use <div> tag...................
+      *******************input tag is a spanic inline element**********
+
+        *******************div  tag is a block element**********
+
+
+                   Also we have input for email>>>>>>>>.                   
+                   E-mail:<input type="email" name="" id=""
+
+
+*****In name attribute you give a name so that it will be recognise by the backend that this name belongs
+to this email tag then only the value in email tag will be taken through the name by backend*****
+
+
+
+Now we give name attribute to every input tag to be recognise by backend to 
+get the value by backend
+
+
+###### we seen different types of input---->>
+
+
+_________________________________________________________________________________________________
+1.text
+2.email
+3.date***
+4.number(it will be more cool when you use css) you can add (e) also for exponential if you want 
+to add huge numbers you cant type lots of zeros............
+5.checkbox
+6.radio button mostly used in gender
+7.submit
+8.reset
+9.textarea for the section to write something also you can add rows and coloumns
+10.checkbox keep on always onn** use word (checked)
+11.LABEL------>>>
+12.select---suppose you are getting a car and you can use label here.....and inside select we 
+    have (options).......
+
+
+    And suppose bydefault like checked you want select something earliear use (selected)
+
+
+_______________________________________________________________________________
+<label for="name">Name</label>
+        <div>
+            <input type="text" name="myname" id="name">
+        </div>
+        <!-- Inside the for you have to give the same id that you want to connect with which input tag -->
+        <!-- you want then write the heading example(Name) of that input tag so that when you click it auto -->
+        <!-- takes that............................. -->
+        <!-- Now when you click on Name heading it will select that,same like this if you want 
+        that when you click on heading it will select that use for -->
+        Try it onn checkbox eligiblity*****
+Use label tag every tag you want>>>>>>>>>......
+_____________________________________________________________________________________________
+
+
+Value in input or select tag is for show you the content in front
+
+
+_____________________________________________________________________________________________
+
+
+**If you give same name attributet radio or checkbox it will select one value**
+
+                __________________________________________________________________________
+               | *****alt+down-arrow-key to move your line of code anywhere you want*****|
+               |_________________________________________________________________________|
+
+
+
+                __________________________________________________________________________
+                |********** press ctr+d to copy above line of code to down****************|
+                |_________________________________________________________________________|
+
+_________________________________________________________________________________________________
+Inline and block elements.....>>>>>>>
+
+
+paragraph <p> is a block element it takes full width and when you add another <p> tag it will 
+start from new line
+
+
+
+And now if you will use <span> tag then it can join two lines together because spam is a inline
+element
+       
+
+
+To make confirm use style="border:2px solid red ;"
+in both <p> and <span>
+
+
+                The elemnts that takes full width is called block element
+                The element that takes a a specific or small area is called inline element
+
+ block elements-----
+
+         1.<div>
+         2.paragraph<p>
+         3.<li>
+
+ inline elements-----
+
+        1.span
+        2.strong(for bold)
+        3.anchor <a>
+        4.<img>
+        5.<em>
+
+
+        Use inline elements or with the help of css you can make block elements the inline elements..
+
+
+                                Quiz recognise this are inline or block elements
+
+
+<li> -----block element
+<img> ----inline
+<em> -----inline element
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

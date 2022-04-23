@@ -1,0 +1,193 @@
+ 1.First we do the font changining with the help of cdnjs website and then type font(69k) copy the
+   url then paste in the link tab....
+
+
+ 2.Now add the css file
+
+ 3.NOW add the js file also
+
+                 <scrip src="food.js">
+                 </script>
+
+4.Then comes the header section
+  
+  Firs t go to google fonts then select the nutrio font then select each font then import that and 
+  paste in css file ......
+
+
+
+        font-family: 'Nunito', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        text-decoration: none;
+        outline: none;
+        border: none;
+        text-transform: capitalize;
+        transition: all 0.2s linear ;
+
+
+                * is the universal selector that selects all the elements in the html......
+
+
+
+
+        ==============   LEARNED THE NEW THINGS LISTS HERE       ==============
+
+        1. text-transform: capitalize;  The word first letter will be capital..
+
+
+
+        2. *{
+                universal selector
+            }
+
+
+        3. html{
+                 it selects all the elements presents in the html 
+           }
+
+
+        4. 
+        
+                 overflow-x: hidden;
+        
+                The overflow-x property specifies whether to clip the content, 
+                add a scroll bar, or display overflow content of a block-level element
+
+        5.      scroll-padding-top: 5.5rem;
+                scroll-behavior: smooth;
+
+                adding the scroll-bar and adding its behaviour......
+
+        6. root {
+
+                we can accese through to parent 
+                --green: setting variable....
+
+           }
+        7.  justify-content: space-between;
+
+                space-between,
+                space-around
+
+        8.  
+        
+                --box-shadow:0 0.5rem 1.5rem rgba(0,0,0,0.1);
+
+                box-shadow: var(--box-shadow)
+
+                if you want box-shadow 
+                then we set first by keep the values of shadow rgba inside
+                a variable named (--box-shadow) variable, then we use that variable in the 
+                box-shadow property........
+
+                we want to use the variable somewhere we use like this if it is declared early
+
+                box-shadow : var(--box-shadow)
+
+
+        ALWAYS KEEP THE SPACES RIGHTLY BETWEEN THE SELECTORS AND CLASS OR ID NAMES
+
+        9. Then we set the class="fas fa-utensils" which is coming fron the link we placed from
+           cdnjs....
+           it will come when we set the i tag in header in css check it now..
+
+        10. line-height: 4.5rem; set the line of the box you can bring something to center but 
+             it should be inside box
+
+        11.  transform: rotate(360deg); rotates the symbols...
+
+        12. input:search then press enter.............
+
+
+
+
+=====================================================================================================
+
+
+                          NEXT IS THE NAVBAR SECTION
+
+        set the border radius and font size to navbar
+        then add a tag property and then add hover to a tag
+
+        header .navbar a.active,
+
+        made the home button to be show on always this way.....
+        then add poperty to the icons i tag and a tag
+
+        Now hide the menu-bar to make the thing reponsive
+
+                header .icons #menu-bars{
+                display: none;
+        }
+
+
+                responsiveness strats here.......
+
+                1.970 x 446  100%
+
+                Then set media quries now......... then copy the html{} tag delete all except
+                the font size....
+
+
+
+        Now setting the js file for the  menu so that someone clicks the three line then only the
+        menu tab opens.
+
+
+
+
+
+
+        Next we work for the search form so that somebody search it may work properly...
+
+        We set the search a special page then didi some action there 
+        now we go to javascript file.....
+
+        Now making search box lenght adjutable in responsiveness
+        copy the search id to the max-width 768px
+
+
+
+        Next is the home section begins...
+
+        keep the navbar home id and the home section home id the same..........
+        
+
+        .home .home-slider .slide .content{
+         flex: 1 1 20rem;
+        }
+        
+        lesser the rem bigger the picture
+        this we done to bring all in line
+
+
+        .home .home-slider .slide .image{
+        flex: 1 1 45rem;
+         }
+         .home .home-slider .slide img{
+  
+
+  Now add button after the p apan and h3 and order button
+
+  Then go to net then search swiper.come
+
+                https://swiperjs.com/
+
+                select get started then take cdn link of css and js from the use swiper from cdn
+                then click on demos...
+                then click on autoplay then you have to click on core then copy the
+                swiper-container and swiper-wrapper
+                select the three class then select the pagination means the dots that we can see...
+                then copy the js part and then paste it in js file
+
+                strating from the var part
+                and change the delay 7500
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+
+                Now copy the home-slider and paste instead of myswiper class.....
+        
